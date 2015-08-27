@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+
+  Copyright 2015 Computing Distribution Group Ltd
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+
+ -->
+<project name="Carbon Logging">
+  <publishDate position="bottom" format="yyyy-MM-dd"/>
+  <version position="bottom"/>
+
+  <skin>
+    <groupId>lt.velykis.maven.skins</groupId>
+    <artifactId>reflow-maven-skin</artifactId>
+    <version>1.1.1</version>
+  </skin>
+
+  <custom>
+    <reflowSkin>
+      <!-- To enable CSS resolution using HTTPS -->
+      <protocolRelativeURLs>true</protocolRelativeURLs>
+      
+      <smoothScroll>false</smoothScroll>
+      <highlightJs>true</highlightJs>
+      <highlightJsTheme>github</highlightJsTheme>
+      <imgLightbox>false</imgLightbox>
+      <theme>bootswatch-cosmo</theme>
+      <brand>
+        <name>Carbon Logging</name>
+        <href>index.html</href>
+      </brand>
+      <topNav>Documentation|Releases|Development|Related|CDG</topNav>
+      <bottomNav>
+        <column>Information</column>
+        <column>Releases|Related</column>
+        <column>Development</column>
+        <column>Reports</column>
+      </bottomNav>
+      <bottomDescription><![CDATA[
+        Carbon Logging - Declarative Logging for AspectJ, Dynamic Proxies and Cglib
+      ]]></bottomDescription>
+      <toc>false</toc>
+      <breadcrumbs>false</breadcrumbs>
+      <markPageHeader>false</markPageHeader>
+      <highlightJs>false</highlightJs>
+      <pages>
+        <index>
+          <sections>
+            <columns>3</columns>
+            <columns>2</columns>
+            <body />
+            <sidebar />
+          </sections>
+          <shortTitle>Home</shortTitle>
+          <highlightJs>true</highlightJs>
+        </index>
+        <quickstart>
+          <highlightJs>true</highlightJs>
+        </quickstart>
+        <userguide>
+          <highlightJs>true</highlightJs>
+        </userguide>
+        <key_instant>
+          <highlightJs>true</highlightJs>
+        </key_instant>
+        <key_partial>
+          <highlightJs>true</highlightJs>
+        </key_partial>
+        <key_interval>
+          <highlightJs>true</highlightJs>
+        </key_interval>
+        <key_duration>
+          <highlightJs>true</highlightJs>
+        </key_duration>
+        <key_period>
+          <highlightJs>true</highlightJs>
+        </key_period>
+        <key_chronology>
+          <highlightJs>true</highlightJs>
+        </key_chronology>
+        <key_format>
+          <highlightJs>true</highlightJs>
+        </key_format>
+      </pages>
+    </reflowSkin>
+  </custom>
+
+  <body>
+    <head>
+      <link href="https://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet"/>
+    </head>
+	<menu name="Documentation">
+		<!-- 
+		<item name="Overview" href="index.html" /> 
+		-->
+		<item name="Javadoc (Release)" href="apidocs/index.html" />
+		<!--
+		<item name="FAQs" href="/faqs.html"/>
+		-->
+		<item name="License" href="licensecover.html" />
+		<item name="Release Notes" href="changes-report.html" />
+		<!-- 
+		<item name="Blog" href="http://tbc/" /> 
+		-->
+	</menu>
+
+	<!--
+	<menu ref="modules" />
+	-->
+
+	<menu name="Development">
+		<!--
+		<item name="Mailing lists" href="mail-lists.html" />
+		-->
+		<item name="GitHub" href="https://github.com/GroupCDG/carbon-logging/" />
+		<!--
+		<item name="Jenkins" href="http://ci.groupcdg.com/" />
+		<item name="Sonar" href="http://sonar.groupcdg.com/" />
+		-->
+		<item name="Maven Central" href="http://repo1.maven.org/maven2/com/groupcdg/" />
+	</menu>
+
+	<menu ref="reports" />
+  </body>
+</project>
