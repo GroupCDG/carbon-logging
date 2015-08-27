@@ -6,7 +6,7 @@ as supporting standardised debug style logging, Carbon Logging provides distinct
 Past experience has convinced us that not only are these the most critical kinds of logging to capture for performance tuning and production support but also such capabilities, 
 implemented adhocly often have significant impact on codebases.
 
-Carbon Logging is licensed under the business-friendly [Apache 2.0 licence](license.html).
+Carbon Logging is licensed under the business-friendly [Apache 2.0 licence](https://raw.githubusercontent.com/GroupCDG/carbon-logging/develop/LICENSE).
 
 Carbon Logging is an Open Source project of CDG. CDG have released Carbon Logging as part of Carbon Digital Platforms (CDP). CDP provides a toolkit for Java developers and a framework 
 for integrating services seamlessly, from composite services that embody an enterprises' capabilities through to lightweight microservices. CDP is being delivered by CDG as an open 
@@ -63,10 +63,7 @@ Logging can be applied via AspectJ in which case no further configuration is req
 <div class="source">
 <pre>
  ExampleServiceWithLogging proxy = LoggingCglibFactory.getProxy(Level.ERROR, service);</pre>
-</div>
-
-Carbon Logging is licensed under the business-friendly [Apache 2.0 licence](https://raw.githubusercontent.com/GroupCDG/carbon-logging/develop/LICENSE).
-
+</div>)
 
 ## <i></i> Related Projects
 
